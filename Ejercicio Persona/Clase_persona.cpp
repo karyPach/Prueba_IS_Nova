@@ -27,9 +27,4 @@ class Alumno : public Persona{ /*segundo cambio*/
 	Alumno (string,int,string,float); //Constructor
 	void mostrarAlumno();
 };
-//Constructor de la clase Persona(superclase o clase padre) /*tercer cambio*/
-Persona:: Persona(string _nombre,int _edad){
-	nombre= _nombre;
-	edad= _edad;
-	
-}
+
