@@ -5,7 +5,7 @@
 #include<stdlib.h>
 using namespace std;
 
-//Clase Persona
+//Clase Persona /*priemr cambio*/
 class Persona{
 	private: //Atributos
 		string nombre;
@@ -15,7 +15,7 @@ class Persona{
 		void mostrarPersona();//Mostrar nombre y edad
 };
 //Clase Alumno
-class Alumno : public Persona{
+class Alumno : public Persona{ /*segundo cambio*/
 	private: //Atributos
 		string codigoAlumno;
 		float promedio;
@@ -27,3 +27,9 @@ class Alumno : public Persona{
 	Alumno (string,int,string,float); //Constructor
 	void mostrarAlumno();
 };
+//Constructor de la clase Persona(superclase o clase padre) /*tercer cambio*/
+Persona:: Persona(string _nombre,int _edad){
+	nombre= _nombre;
+	edad= _edad;
+	
+}
