@@ -35,3 +35,16 @@ Persona:: Persona(string _nombre,int _edad){
 	
 }
 
+//cambio elaborado por Noé, nueva rama
+
+//constructor de la clase Alumno(subclase o clase hija)
+Alumno::Alumno(string _nombre, int _edad, string _codigoAlumno, float _promedio):Persona(_nombre,_edad){
+	codigoAlumno= _codigoAlumno;
+	promedio= _promedio;
+}
+
+//mostrar nombre y edad de la clase Persona
+void Persona::mostrarPersona(){
+	cout<<"Nombre: "<<nombre<<endl;
+	cout<<"Edad: "<<edad<<endl;
+}
