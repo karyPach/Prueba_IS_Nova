@@ -34,4 +34,11 @@ Persona:: Persona(string _nombre,int _edad){
 	edad= _edad;
 	
 }
+//Clase alumno modificacion por eloy
+//constructor de la clase Persona(subclase o clase hija)
+Alumno::Alumno(string _nombre, int _edad, string _codigoAlumno, float _promedio):Persona(_nombre, _edad){
+	codigoAlumno = _codigoAlumno;
+	promedio = _promedio;
+}
+//Mostrar nombre y edad de la clase Persona
 
