@@ -35,7 +35,8 @@ Persona:: Persona(string _nombre,int _edad){
 	
 }
 
-//cambio elaborado por Noe, nueva rama
+
+//cambio elaborado por Noé, nueva rama
 
 //constructor de la clase Alumno(subclase o clase hija)
 Alumno::Alumno(string _nombre, int _edad, string _codigoAlumno, float _promedio):Persona(_nombre,_edad){
