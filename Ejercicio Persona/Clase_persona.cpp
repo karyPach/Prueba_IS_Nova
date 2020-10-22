@@ -34,11 +34,14 @@ Persona:: Persona(string _nombre,int _edad){
 	edad= _edad;
 	
 }
-//Clase alumno modificacion por eloy
-//constructor de la clase Persona(subclase o clase hija)
-Alumno::Alumno(string _nombre, int _edad, string _codigoAlumno, float _promedio):Persona(_nombre, _edad){
-	codigoAlumno = _codigoAlumno;
-	promedio = _promedio;
+//Modificación elaborado por eloy
+int main(){
+	Persona persona1("omar",20);
+	persona1.mostrarpersona();
+	cout<<"\n"<<endl;
+	Alumno alumno1("omar",20,"0117010006",9.0);
+	alumno1.mostrarAlumno();
+	
+	return 0;
 }
-//Mostrar nombre y edad de la clase Persona
 
