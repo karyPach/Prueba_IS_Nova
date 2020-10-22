@@ -4,7 +4,7 @@
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
-
+ 
 //Clase Persona /*priemr cambio*/
 class Persona{
 	private: //Atributos
