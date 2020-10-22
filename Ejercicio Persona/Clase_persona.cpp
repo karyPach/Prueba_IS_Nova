@@ -27,7 +27,7 @@ class Alumno : public Persona{ /*segundo cambio*/
 	Alumno (string,int,string,float); //Constructor
 	void mostrarAlumno();
 };
-/*Nuevo cambio usando una rama*/
+/*Nuevo cambio usando una rama */
 //Constructor de la clase Persona(superclase o clase padre)
 Persona:: Persona(string _nombre,int _edad){
 	nombre= _nombre;
