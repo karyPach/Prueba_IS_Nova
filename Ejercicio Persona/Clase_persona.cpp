@@ -4,6 +4,18 @@
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
+
+
+
+class Javier {         //Clase Javier XD
+	public:
+		string get_nombre() {
+			return "Javier";
+		}
+		string get_saludo() {
+			return "dice hola";
+		}
+};
  
 //Clase Persona /*priemr cambio*/
 class Persona{
@@ -41,6 +53,9 @@ int main(){
 	cout<<"\n"<<endl;
 	Alumno alumno1("omar",20,"0117010006",9.0);
 	alumno1.mostrarAlumno();
+	
+	Javier j;
+	cout<<j.get_nombre()<<" "<<j.get_saludo()<<endl;
 	
 	return 0;
 }
